@@ -1,0 +1,81 @@
+body{
+	padding: auto;
+	margin: auto;
+}
+
+
+.nav{
+	background: #000050;
+	padding: 10px;
+}
+
+.active {
+	background: #001a50;
+	text-shadow: 3px 3px #191900;
+	color: white;
+	text-decoration: none;
+	padding: 30px ;
+  	font-family: "Archivo Black",sans-serif;
+
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	padding: 30px ;
+  	font-family: "Archivo Black",sans-serif;
+
+}
+
+.srch{
+	height: 30px;
+	width: 450px;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+
+
+
+.nav a:hover {
+	background: #191995;
+	text-shadow: 3px 3px #191900;
+	color: white;
+	text-decoration: none;
+	padding: 30px ;
+  	font-family: "Archivo Black",sans-serif;
+
+}
+
+.con{
+	display: flex;
+	gap: ;
+}
+
+.col{
+	flex: 1;
+	padding: 40px;
+	text-align: center;
+}
+
+h3{
+	font-family: "Archivo Black",sans-serif;
+	color: #000039;
+}
+
+.con p {
+    font-family: "SUSE Mono", sans-serif;
+    color: #000039;
+}
+
+footer {
+	text-align: center; 
+	background-color: #b0c4de;
+	color:white;
+	padding: 10px 10px;
+	font-size: 10px;
+	font-family: "SUSE Mono", sans-serif;
+
+
+}
